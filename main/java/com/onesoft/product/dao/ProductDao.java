@@ -14,7 +14,7 @@ public class ProductDao {
 	
 	public String setPost1(Product p) {
 		pr.save(p);
-		return "Posted";
+		return "Succeed";
 	}
 	
 	public String setPost2(List <Product> p) {
